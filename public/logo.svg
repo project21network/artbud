@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="60" viewBox="0 0 100 60" fill="none">
+  <g>
+    <!-- Budynek -->
+    <path d="M70 10L85 20V50H70V10Z" fill="#0099e5"/>
+    <path d="M55 15L70 25V50H55V15Z" fill="#0099e5"/>
+    <path d="M40 20L55 30V50H40V20Z" fill="#0099e5"/>
+    
+    <!-- Dom -->
+    <path d="M15 30L30 20L45 30V50H15V30Z" fill="#0099e5"/>
+    <rect x="25" y="35" width="10" height="15" fill="white"/>
+    
+    <!-- Okna w budynkach -->
+    <rect x="75" y="25" width="5" height="5" fill="white"/>
+    <rect x="75" y="35" width="5" height="5" fill="white"/>
+    <rect x="60" y="30" width="5" height="5" fill="white"/>
+    <rect x="60" y="40" width="5" height="5" fill="white"/>
+    <rect x="45" y="35" width="5" height="5" fill="white"/>
+    <rect x="45" y="45" width="5" height="5" fill="white"/>
+  </g>
+</svg>
