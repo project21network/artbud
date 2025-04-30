@@ -91,7 +91,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
-              className="flex flex-wrap items-center gap-6 pt-6"
+              className="hidden md:flex flex-wrap items-center gap-6 pt-6"
             >
               <div className="flex items-center">
                 <div className="bg-primary/10 p-2 rounded-full mr-3">
@@ -146,10 +146,6 @@ export default function Hero() {
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-xl font-bold">Kompleksowe remonty</h3>
-                <p className="text-sm opacity-90">Elewacje • Wykończenia wnętrz</p>
-              </div>
             </div>
 
             {/* Floating elements - zoptymalizowane dla urządzeń mobilnych */}
@@ -196,28 +192,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator - zoptymalizowany dla urządzeń mobilnych */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.8, duration: 0.5 }}
-        className="absolute bottom-6 md:bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block"
-      >
-        <div className="flex flex-col items-center">
-          <span className="text-sm text-gray-dark mb-2">Przewiń w dół</span>
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
-            className="w-6 h-10 border-2 border-primary rounded-full flex justify-center"
-          >
-            <motion.div
-              animate={{ y: [0, 15, 0] }}
-              transition={{ repeat: Infinity, duration: 1.5 }}
-              className="w-1 h-2 bg-primary rounded-full mt-2"
-            ></motion.div>
-          </motion.div>
-        </div>
-      </motion.div>
     </section>
   );
 }
