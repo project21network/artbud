@@ -10,7 +10,6 @@ const navLinks = [
   { name: 'Usługi', href: '#services' },
   { name: 'FAQ', href: '#faq' },
   { name: 'Cennik', href: '#pricing' },
-  { name: 'Zespół', href: '#team' },
   { name: 'Proces', href: '#steps' },
   { name: 'Portfolio', href: '#portfolio' },
   { name: 'Opinie', href: '#testimonials' },
@@ -36,16 +35,21 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 will-change-transform ${
         scrolled ? 'bg-white shadow-lg py-2' : 'bg-transparent py-4'
       }`}
+      style={{
+        position: '-webkit-sticky',
+        WebkitBackfaceVisibility: 'hidden',
+        WebkitTransform: 'translate3d(0,0,0)'
+      }}
     >
       <div className="container-custom">
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="relative z-50 flex items-center">
             <div className="flex items-center">
-              <div className="relative h-10 w-16 mr-2">
+              <div className="relative h-14 w-28 mr-2">
                 <Image
                   src="/logo.svg"
                   alt="Art Bud Logo"
@@ -53,14 +57,6 @@ export default function Navbar() {
                   className="object-contain"
                   priority
                 />
-              </div>
-              <div className="flex flex-col">
-                <div className="font-bold text-xl md:text-2xl">
-                  <span className="text-primary">Art</span> <span className="text-secondary">Bud</span>
-                </div>
-                <div className="text-xs md:text-sm text-gray-dark">
-                  Bogusław Król
-                </div>
               </div>
             </div>
           </Link>

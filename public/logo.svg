@@ -1,21 +1,138 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="60" viewBox="0 0 100 60" fill="none">
-  <g>
-    <!-- Budynek -->
-    <path d="M70 10L85 20V50H70V10Z" fill="#0099e5"/>
-    <path d="M55 15L70 25V50H55V15Z" fill="#0099e5"/>
-    <path d="M40 20L55 30V50H40V20Z" fill="#0099e5"/>
-    
-    <!-- Dom -->
-    <path d="M15 30L30 20L45 30V50H15V30Z" fill="#0099e5"/>
-    <rect x="25" y="35" width="10" height="15" fill="white"/>
-    
-    <!-- Okna w budynkach -->
-    <rect x="75" y="25" width="5" height="5" fill="white"/>
-    <rect x="75" y="35" width="5" height="5" fill="white"/>
-    <rect x="60" y="30" width="5" height="5" fill="white"/>
-    <rect x="60" y="40" width="5" height="5" fill="white"/>
-    <rect x="45" y="35" width="5" height="5" fill="white"/>
-    <rect x="45" y="45" width="5" height="5" fill="white"/>
-  </g>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 967 375" width="967" height="375">
+	<title>propozycje logo art bud Bogusław Król-02</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.94,80.57,-65.217,5.618,146.65,233.15)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.57,-80.57,6.93,97.23,237.4)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.58,-80.58,6.93,114.23,235.93)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g4" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.57,-80.57,6.93,95.73,237.53)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.58,-80.58,6.93,112.73,236.06)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.92,80.52,-90.556,7.783,71.62,239.63)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g7" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.51,75.66,-61.357,5.279,357.74,214.35)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g8" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.57,-80.57,6.93,311.71,218.95)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g9" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.58,-80.58,6.93,328.71,217.48)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g10" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.57,-80.57,6.93,310.2,219.08)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g11" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.93,80.58,-80.58,6.93,327.2,217.61)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g12" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.74,78.38,-87.563,7.53,281.98,221.24)">
+			<stop offset="0" stop-color="#009fe3"/>
+			<stop offset="1" stop-color="#2d2e83"/>
+		</linearGradient>
+		<linearGradient id="g13" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(431.57,0,0,92.918,450.53,164.09)">
+			<stop offset="0" stop-color="#0080c9"/>
+			<stop offset=".22" stop-color="#0381ca"/>
+			<stop offset=".4" stop-color="#0c87cd"/>
+			<stop offset=".55" stop-color="#1d91d2"/>
+			<stop offset=".69" stop-color="#349fda"/>
+			<stop offset=".83" stop-color="#51b1e4"/>
+			<stop offset=".96" stop-color="#75c7f0"/>
+			<stop offset="1" stop-color="#83d0f5"/>
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #2c2972 } 
+		.s1 { fill: #2d2e83 } 
+		.s2 { fill: url(#g1) } 
+		.s3 { fill: url(#g2) } 
+		.s4 { fill: url(#g3) } 
+		.s5 { fill: url(#g4) } 
+		.s6 { fill: url(#g5) } 
+		.s7 { fill: url(#g6) } 
+		.s8 { fill: url(#g7) } 
+		.s9 { fill: url(#g8) } 
+		.s10 { fill: url(#g9) } 
+		.s11 { fill: url(#g10) } 
+		.s12 { fill: url(#g11) } 
+		.s13 { fill: url(#g12) } 
+		.s14 { fill: #f9b233 } 
+		.s15 { fill: url(#g13) } 
+		.t16 { font-size: 39px;fill: #2d2e83;font-weight: 400;font-family: "Montserrat-Regular", "Montserrat" } 
+	</style>
+	<g id="Layer_2">
+		<g>
+			<g>
+				<path fill-rule="evenodd" class="s0" d="m72.5 227.7l5.9-148.8 53-42.7 5.9 166.4v-184.1l-66.3 54.5 1.5 154.7z"/>
+				<path fill-rule="evenodd" class="s0" d="m174.1 31.8l-30.9-13.3 23.6 19.2 10.3 203.2-3-209.1z"/>
+			</g>
+			<path fill-rule="evenodd" class="s0" d="m178.7 96.1l21-13.8 49.1 26.9 1.3 106-5.9-102.1-40.6-22.3-2.6 161.1-3.9-161.7-18.4 5.9z"/>
+			<path fill-rule="evenodd" class="s0" d="m329.9 49.3l-28.4 14.7 3.9 61.9 2-58 20.6-10.8v95.3l-41.3-28.5-26.5 12.7-2.9 72.7 8.8-66.7 17.7-9.9 4.9 74.7 2-72.7 44.2 29.4v-99.1l16.7 16.7 6.8 178.7v-183.6l-28.5-27.5z"/>
+			<path class="s1" d="m429.8 307.2c-251.3-95.9-419.5 39.4-419.5 39.4 122.1-69.7 255.1-58.2 329.4-43.2 26.1 5.3 51.2 12.9 75.1 22.4 300 119.2 541.2-67.3 541.2-67.3 0 0-281.5 142-526.2 48.7z"/>
+			<g>
+				<path fill-rule="evenodd" class="s2" d="m108.9 206.7v20.2l80 64.9-80-85.1z"/>
+				<path fill-rule="evenodd" class="s3" d="m92.3 249h13v13.1h-13z"/>
+				<path fill-rule="evenodd" class="s4" d="m109.4 249h13.1v13.1h-13.1z"/>
+				<path fill-rule="evenodd" class="s5" d="m92.3 266.7h13v13.1h-13z"/>
+				<path fill-rule="evenodd" class="s6" d="m109.4 266.7h13.1v13.1h-13.1z"/>
+				<path class="s7" d="m79.2 237.8v-14.5h-15.2v30.5l-28.6 30.5c7.4-1.8 73.5-57.4 73.5-57.4v-20.2l-29.8 31.1z"/>
+			</g>
+			<g>
+				<path class="s8" d="m324.5 208l0.5 20.2c0 0 68.5 59.2 72.7 57.1 0 0-73.2-77.3-73.2-77.3z"/>
+				<path fill-rule="evenodd" class="s9" d="m308.4 250.3h13.1v13.1h-13.1z"/>
+				<path fill-rule="evenodd" class="s10" d="m325.6 250.3h13v13.1h-13.1z"/>
+				<path fill-rule="evenodd" class="s11" d="m308.4 268h13.1v13h-13.1z"/>
+				<path fill-rule="evenodd" class="s12" d="m325.6 268h13v13h-13.1z"/>
+				<path fill-rule="evenodd" class="s13" d="m324.5 208l-29.2 31.1v-14.5h-15.1v30.5l-35.7 38 80.5-64.9-0.5-20.2z"/>
+			</g>
+			<path fill-rule="evenodd" class="s14" d="m236.2 65.6c-15.9 0-28.6-12.8-28.6-28.6 0-15.8 12.7-28.6 28.6-28.6 15.8 0 28.6 12.8 28.6 28.6 0 15.8-12.8 28.6-28.6 28.6z"/>
+			<path class="s15" d="m456 202.7l28.7-73.2h8.3l31.4 75.3 9.1 1v2.9h-34.8v-2.9l9.6-1-10.9-27.3h-26.7l-9.5 25.2 10.6 3.1v2.9h-24.8v-2.9c0 0 9-3.1 9-3.1zm28-58.4l-11.6 28.8h23.2c0 0-11.6-28.8-11.6-28.8zm72.3 5.9l-0.7 14.6h0.5c2.7-8.6 9.8-15.4 18-15.4 4.5 0 6.6 3.2 6.6 6.5 0 2.4-1.2 5-3.4 6.3-1.8-1.4-4-1.9-6.2-1.9-7.4 0-14.8 4.6-14.8 9.2v35.7l10.7 0.7v2.8h-33.3v-2.8l7.8-0.6v-50.6l-9.6-0.4v-2.8c0 0 24.4-1.3 24.4-1.3zm34.7 43.2c0-9.5 0.3-27.6 0.6-39.5h-8v-3.1h8.2l0.1-17.4h15.1l-0.3 17.4h16.6v3.1h-16.6l-0.3 9.6c-0.2 12.8-0.3 27.4-0.3 35.2 0 6.6 1.5 7.9 4.1 7.9 4.3 0 9.3-5.8 11.2-12.6 0.7 0 2.9 0.1 2.2 2.4-2.5 8.4-9.1 13.6-16.8 13.6-7.7 0-15.8-2.1-15.8-16.6zm129.7-45.3c0 9.8-6.3 17.3-19.1 18.7h0.1c15.9 3 22.9 8.8 22.9 20.4 0 15.4-15 21.5-33.3 21.5h-33.7v-2.9l10.2-1.2v-71.2l-10-1.2v-2.7h34.6c20.2 0 28.3 6.8 28.3 18.6zm-36.9 17.8h2.9c10.7 0 17.5-5.5 17.5-18.3 0-10.5-4.5-14.9-14.9-14.9h-5.5v33.2zm3.1 3.3c-1.6 0-2.5 0.1-3.1 0.1v36c1.8 0.5 3.5 0.6 5.3 0.6 9.2 0 19.3-4.2 19.3-19.6 0-10.9-5.7-14.7-11.6-16-3.2-0.8-6.6-1.1-9.9-1.1zm67.9-19.1c-0.6 13.4-1.1 28.8-1.1 42.1 0 8.9 1.6 13.4 8 13.4 8.4 0 16-12.4 16-17.8v-33.2l-9.3-0.5v-2.7l24.5-1.5v55l9.6 0.4v2.8l-24.3 1.4 0.6-11.9h-1.2c-4.4 7.8-11.6 12.2-19.9 12.2-11.7 0-19-4.9-19-18.2 0-13.3 0.4-23.4 1.3-37l-8.7-0.5v-2.7l23.5-1.3zm113.6-32.5v88.3l10.1 0.5 0.1 2.7-24.8 1.5 0.3-10.7h-0.7c-4.1 6.7-12 10.5-20.1 10.5-13.3 0-25-8.6-25-28.8 0-20.1 12.5-31.6 31.1-31.6 3.6 0 9.8 1.3 13.8 3.4v-30.1l-10.2-0.7v-3l25.4-2zm-15.3 40.2c-3.3-3.1-8.4-4.4-12.1-4.4-13 0-15.6 13.4-15.6 28 0 18 3.9 25.2 11.2 25.2 9.8 0 16.5-10.6 16.5-16.2v-32.6z"/>
+			<g>
+				<text id="Bogusł" style="transform: matrix(1,0,0,1,447.02,259.08)" >
+					<tspan x="0" y="0" class="t16">Bogusł
+</tspan>
+				</text>
+				<text id="a" style="transform: matrix(1,0,0,1,656.38,259.08)" >
+					<tspan x="0" y="0" class="t16">a
+</tspan>
+				</text>
+				<text id="w " style="transform: matrix(1,0,0,1,691.09,259.08)" >
+					<tspan x="0" y="0" class="t16">w 
+</tspan>
+				</text>
+				<text id="K" style="transform: matrix(1,0,0,1,759.76,259.08)" >
+					<tspan x="0" y="0" class="t16">K
+</tspan>
+				</text>
+				<text id="r" style="transform: matrix(1,0,0,1,799.24,259.08)" >
+					<tspan x="0" y="0" class="t16">r
+</tspan>
+				</text>
+				<text id="ól" style="transform: matrix(1,0,0,1,826.38,259.08)" >
+					<tspan x="0" y="0" class="t16">ól
+</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
 </svg>

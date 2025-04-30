@@ -20,7 +20,7 @@ export default function Footer() {
             className="col-span-1 lg:col-span-1"
           >
             <div className="flex items-center mb-4">
-              <div className="relative h-10 w-16 mr-2">
+              <div className="relative h-14 w-28 mr-2">
                 <Image
                   src="/logo.svg"
                   alt="Art Bud Logo"
@@ -28,14 +28,7 @@ export default function Footer() {
                   className="object-contain brightness-0 invert"
                 />
               </div>
-              <div className="flex flex-col">
-                <div className="font-bold text-xl">
-                  <span className="text-primary">Art</span> <span className="text-white">Bud</span>
-                </div>
-                <div className="text-xs text-gray-light">
-                  Bogusław Król
-                </div>
-              </div>
+
             </div>
             <p className="text-gray-light mb-4">
               Kompleksowe remonty mieszkań i domów. Wykonujemy wszystkie prace wykończeniowe z najwyższą jakością.

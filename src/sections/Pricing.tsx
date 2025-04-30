@@ -8,7 +8,7 @@ const pricingPlans = [
     id: 1,
     name: 'Remont podstawowy',
     description: 'Idealne rozwiązanie dla odświeżenia mieszkania',
-    price: 'od 200 zł/m²',
+    price: 'od 400 zł',
     features: [
       'Malowanie ścian i sufitów',
       'Wymiana podłóg',
@@ -22,7 +22,7 @@ const pricingPlans = [
     id: 2,
     name: 'Remont kompleksowy',
     description: 'Pełna metamorfoza Twojego mieszkania',
-    price: 'od 500 zł/m²',
+    price: 'od 1000 zł',
     features: [
       'Wszystko z pakietu podstawowego',
       'Wymiana instalacji elektrycznej',
@@ -38,7 +38,7 @@ const pricingPlans = [
     id: 3,
     name: 'Wykończenie pod klucz',
     description: 'Kompleksowe wykończenie nowego mieszkania',
-    price: 'od 800 zł/m²',
+    price: 'od 800 zł',
     features: [
       'Wszystko z pakietu kompleksowego',
       'Projekt aranżacji wnętrz',
