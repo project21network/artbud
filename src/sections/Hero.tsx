@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-20 md:pt-24 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-28 md:pt-32 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -100,7 +100,7 @@ export default function Hero() {
                   </svg>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-2xl font-bold text-primary">7+</span>
+                  <span className="text-2xl font-bold text-primary">9+</span>
                   <span className="text-sm text-gray-dark">Lat doświadczenia</span>
                 </div>
               </div>

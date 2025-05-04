@@ -163,6 +163,24 @@ export default function Portfolio() {
           </motion.div>
         )}
 
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="flex justify-center mt-12"
+        >
+          <a
+            href="/galeria"
+            className="bg-primary text-white px-6 py-3 rounded-full hover:bg-primary-light transition-colors duration-300 flex items-center shadow-md"
+          >
+            <span>Zobacz więcej realizacji</span>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+        </motion.div>
+
         {/* Project Modal */}
         <AnimatePresence>
           {selectedProject !== null && (

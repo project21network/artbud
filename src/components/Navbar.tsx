@@ -6,14 +6,12 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
-  { name: 'O nas', href: '#about' },
-  { name: 'Usługi', href: '#services' },
-  { name: 'FAQ', href: '#faq' },
-  { name: 'Cennik', href: '#pricing' },
-  { name: 'Proces', href: '#steps' },
-  { name: 'Portfolio', href: '#portfolio' },
-  { name: 'Opinie', href: '#testimonials' },
-  { name: 'Kontakt', href: '#contact' },
+  { name: 'O nas', href: '/#about' },
+  { name: 'Usługi', href: '/#services' },
+  { name: 'Cennik', href: '/#pricing' },
+  { name: 'Portfolio', href: '/#portfolio' },
+  { name: 'Galeria', href: '/galeria' },
+  { name: 'Kontakt', href: '/#contact' }
 ];
 
 export default function Navbar() {
@@ -35,31 +33,30 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 will-change-transform ${
-        scrolled ? 'bg-white shadow-lg py-2' : 'bg-transparent py-4'
+      className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+        scrolled ? 'bg-white shadow-lg py-2' : 'bg-white/90 backdrop-blur-sm py-3'
       }`}
-      style={{
-        position: '-webkit-sticky',
-        WebkitBackfaceVisibility: 'hidden',
-        WebkitTransform: 'translate3d(0,0,0)'
-      }}
     >
       <div className="container-custom">
         <nav className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="relative z-50 flex items-center">
-            <div className="flex items-center">
-              <div className="relative h-14 w-28 mr-2">
-                <Image
-                  src="/logo.svg"
-                  alt="Art Bud Logo"
-                  fill
-                  className="object-contain"
-                  priority
-                />
+          <div className="relative">
+            <Link href="/" className="relative z-50 flex items-center">
+              <div className="absolute -bottom-23 left-0">
+                <div className="relative h-24 w-44 sm:h-28 sm:w-52  rounded-xl p-2 transition-all duration-300 hover:scale-105">
+                  <Image
+                    src="/logo.png"
+                    alt="Art Bud Logo"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
+                </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+            {/* Placeholder to maintain navbar spacing */}
+            <div className="h-14 w-28 mr-2 invisible"></div>
+          </div>
 
           {/* Contact Info - Visible on medium screens */}
           <div className="hidden md:flex lg:hidden items-center">

@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <div className="relative h-14 w-28 mr-2">
                 <Image
-                  src="/logo.svg"
+                  src="/logo.png"
                   alt="Art Bud Logo"
                   fill
                   className="object-contain brightness-0 invert"

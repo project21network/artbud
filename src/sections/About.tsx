@@ -11,7 +11,9 @@ export default function About() {
   const certificateImages = [
     "/images/zaufanie.jpg",
     "/images/certyfikat2.jpg",
-    "/images/certyfikat3.jpg"
+    "/images/certyfikat3.jpg",
+    "/images/certyfikat4.jpg",
+
   ];
 
   const openGallery = (index: number) => {
@@ -32,7 +34,7 @@ export default function About() {
   };
 
   return (
-    <section id="about" className="py-20 bg-gray-light/30">
+    <section id="about" className="py-20 bg-white">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -56,14 +58,14 @@ export default function About() {
             className="relative"
           >
             <div
-              className="relative aspect-square w-full overflow-hidden rounded-2xl shadow-lg cursor-pointer group"
+              className="relative aspect-square w-full overflow-hidden rounded-2xl cursor-pointer group"
               onClick={() => openGallery(0)}
             >
               <Image
                 src="/images/zaufanie.jpg"
                 alt="Certyfikat Firma Godna Zaufania"
                 fill
-                className="object-contain bg-white p-2"
+                className="object-contain p-2"
               />
               <div className="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
                 <div className="bg-white p-3 rounded-full">
@@ -75,7 +77,7 @@ export default function About() {
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-5 rounded-xl shadow-lg max-w-xs">
               <p className="text-primary font-bold text-lg">Remontujemy od 2016 roku</p>
-              <p className="text-gray-dark">Z pasją i profesjonalizmem realizujemy projekty remontowe.</p>
+              <p className="text-gray-dark">9+ lat doświadczenia w realizacji projektów remontowych.</p>
             </div>
           </motion.div>
 
@@ -87,7 +89,10 @@ export default function About() {
             className="flex flex-col space-y-6"
           >
             <div>
-              <h3 className="heading-md mb-4">Kim jesteśmy?</h3>
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="heading-md">Kim jesteśmy?</h3>
+
+              </div>
               <p className="text-gray-dark mb-4">
                 Jesteśmy profesjonalną firmą remontową z siedzibą w Sosnowcu, specjalizującą się w kompleksowych remontach mieszkań i domów.
                 Nasz zespół składa się z doświadczonych fachowców, którzy z pasją podchodzą do każdego projektu.
